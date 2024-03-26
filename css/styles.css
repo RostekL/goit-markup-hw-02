@@ -55,7 +55,7 @@ body {
   color: var(--iris);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
@@ -79,6 +79,9 @@ body {
   color: var(--ocean);
 }
 
+.contact {
+  font-style: normal;
+}
 .contact-link {
   font-size: 16px;
   line-height: 1.5;
@@ -124,7 +127,14 @@ body {
 
 /* =========================== DESCRIPTION SECTION (2) ========================== */
 
-.description-item {
+.description-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
+.description-copy {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -192,15 +202,24 @@ body {
 }
 
 /* =========================== FOOTER SECTION ========================== */
-
-.studio-footer {
-  color: var(--light-background);
-}
-
 .footer {
   background-color: var(--navyblue);
 }
 
-.footer-text {
-  color: var(--light-background);
+.footer-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+
+.footer-link-span {
+  color: var(--cloud);
+}
+
+.footer-copy {
+  color: var(--cloud);
 }
