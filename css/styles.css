@@ -134,7 +134,7 @@ body {
 /* =========================== TEAM SECTION (3) ========================== */
 
 .team {
-  background-color: var(--light-background);
+  background-color: var(--cloud);
 }
 
 .team-title {
@@ -144,7 +144,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--second-text-color);
+  color: var(--navyblue);
   margin-bottom: 72px;
 }
 
