@@ -157,12 +157,15 @@ body {
   color: var(--navyblue);
   margin-bottom: 72px;
 }
-
+.name-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
 .team-item {
   background-color: var(--white);
-}
-.name-container {
-  text-align: center;
 }
 
 .name-copy {
